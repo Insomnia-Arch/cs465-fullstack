@@ -17,7 +17,8 @@
     </p>
 
     <p class="card-text" [innerHTML]="trip.description"></p>
-    <div *ngIf="isLoggedIn()">
+    //this just isn't working. I recall seeing that *ngIf has changed since this curriculum was written several years ago...............
+    <div> //*ngIf="isLoggedIn()">
         <button (click)="editTrip(trip)" class="btn btn-info">Edit trip</button>
     </div>
   </div>
